@@ -15,10 +15,10 @@ var vue_options = {
     },
     methods: {
         do_delete: function(){
-            this.$refs.test.call_item_delete(1);
+            this.$refs.history.call_item_delete(1);
         },
         do_add: function () {
-            this.$refs.test.call_item_add("test_" + this.target);
+            this.$refs.history.call_item_add("test_" + this.target);
             this.target++;
         },
     },
