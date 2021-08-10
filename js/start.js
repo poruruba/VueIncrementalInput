@@ -36,7 +36,7 @@ vue_add_global_components(components_utils);
 /*
  * add additional components
  */
-//import comp_history from './comp_history.js';
+//import comp_history from './comp_history.jsm.js';
 //vue_add_component(vue_options, "comp_history", comp_history);
 vue_add_global_component("comp_history", comp_history);
 
